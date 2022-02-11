@@ -110,6 +110,36 @@
                 
                 .row {
                     display: flex;
+                    padding: 8vw;
+                }
+                #reader{
+                    background-color: rgba(0, 0, 0, 0.103);
+                    width: 50vw !important;
+                    margin: auto;
+                    border: 1px solid rgba(0, 0, 0, 0.089) !important;
+                    box-shadow: 0 0 2vw 0.5vw #0000003a !important;
+                    
+                }
+                #reader>div>span>a{
+                    visibility: hidden !important;
+                    
+                }
+                #reader>div>span{
+                    visibility: hidden !important;
+                    
+                }
+                #reader>div>img{
+                    opacity: 1 !important;
+                    width: 10vw !important;
+                }
+                #reader_scan_region{
+                    height: 4vw !important;
+                }
+                #reader__dashboard_section_csr{
+                   font-size: 2vh !important;
+                }
+                #reader__dashboard_section_swaplink{
+                    visibility: hidden !important;
                 }
                 </style>
                 <div class="col" style="padding:30px;">
@@ -118,7 +148,7 @@
                 </div>
             <div class="row">
                 <div id="scan" class="col">
-                    <div style="width:500px;" id="reader"></div>
+                    <div style="width:500px; " id="reader" ></div>
                 </div>
             </div>
             <script src="html5-qrcode.min.js"></script>
