@@ -267,7 +267,7 @@ h6 {
         content: '';
         width: 13px;
         height: 12px;
-        background-image: url(../images/resources/menu-active-star.png);
+        
         background-position: center center;
         background-repeat: no-repeat;
         position: absolute;
@@ -277,7 +277,7 @@ h6 {
         opacity: 0;
         transition: opacity .4s ease, transform .4s ease; }
     .header-navigation ul.navigation-box > li.current > a, .header-navigation ul.navigation-box > li:hover > a {
-      color: #008000; }
+      color: #FF8C00; }
       .header-navigation ul.navigation-box > li.current > a:before, .header-navigation ul.navigation-box > li:hover > a:before {
         transform: translateY(-50%) scale(1) rotate(360deg);
         opacity: 1; }
@@ -1506,7 +1506,7 @@ canvas, #overlay {
 * 7, inner-banner styles
 */
 .inner-banner {
-  background-color: #008000;
+  background-image: linear-gradient(#FF8C00, white, #008000);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -1517,7 +1517,7 @@ canvas, #overlay {
     line-height: 1em;
     font-size: 60px;
     font-weight: 700;
-    color: #fff;
+    color: rgb(0, 0, 0);
     margin: 0;
     margin-bottom: 15px; }
 
@@ -1529,9 +1529,9 @@ canvas, #overlay {
   .thm-breadcrumb li {
     font-size: 18px;
     font-weight: 500;
-    color: #a6b3d0; }
+    color: #598eff; }
     .thm-breadcrumb li a {
-      color: #a6b3d0;
+      color: #598eff;
       transition: all .4s ease; }
       .thm-breadcrumb li a:hover {
         color: #FFA500; }
