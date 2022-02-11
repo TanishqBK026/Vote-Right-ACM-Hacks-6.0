@@ -1066,6 +1066,20 @@ h6 {
         .blog-details__author-content a:hover {
           color: #008000; }
 
+#root{
+  position:relative;
+}
+
+canvas, #overlay {
+  position: absolute;
+}
+
+#overlay{
+  width:1920px;
+  height:1080px;
+  z-index:100;
+}
+
 .comment-one {
   margin-bottom: 60px; }
   .comment-one__single {
