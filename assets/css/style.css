@@ -68,7 +68,7 @@ h6 {
     margin-bottom: 10px; }
   .block-title__title {
     margin: 0;
-    color: #008000;
+    color: #000000;
     font-weight: 700;
     font-size: 50px;
     letter-spacing: -.02em; }
@@ -2269,7 +2269,7 @@ h6 {
 .fact-two__count {
   line-height: 1em;
   margin: 0;
-  color: #008000;
+  color: #FF8C00;
   font-size: 50px;
   font-weight: bold; }
 .fact-two__text {
@@ -2675,7 +2675,7 @@ h6 {
     text-align: center; }
   .testimonials-one__text {
     margin: 0px;
-    color: #008000;
+    color: #000000;
     font-size: 30px;
     line-height: 56px;
     font-family: "Libre Baskerville"; }
@@ -2962,7 +2962,7 @@ h6 {
       transition: transform .4s ease; }
     .campaing-two__single > i {
       font-size: 64px;
-      color: #008000;
+      color: #000000;
       position: relative;
       z-index: 2;
       transition: all .4s ease; }
